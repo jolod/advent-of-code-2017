@@ -1,0 +1,99 @@
+Day 1
+1228
+1238
+
+Day 2
+39126
+258
+
+Day 3
+430
+312453
+
+Day 4
+383
+265
+
+Day 5
+342669
+25136209
+
+Day 6
+5042
+1086
+
+Day 7
+vgzejbd
+1226
+
+Day 8
+4567
+5636
+
+Day 9
+12803
+6425
+
+Day 10
+7888
+decdf7d377879877173b7f2fb131cf1b
+
+Day 11
+720
+1485
+
+Day 12
+306
+200
+
+Day 13
+632
+3849742
+
+Day 14
+8250
+1113
+
+Day 15
+626
+306
+
+Day 16
+ehdpincaogkblmfj
+bpcekomfgjdlinha
+
+Day 17
+772
+42729050
+
+Day 18
+9423
+7620
+
+Day 19
+RUEDAHWKSM
+17264
+
+Day 20
+170
+571
+
+Day 21
+123
+1984683
+
+Day 22
+5406
+2511640
+
+Day 23
+9409
+# Skipping part 2, insufficient input to generalize.
+
+Day 24
+1511
+1471
+
+Day 25
+3362
+DONE!

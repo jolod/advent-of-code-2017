@@ -1,0 +1,1 @@
+perl -walE'($low, $high) = (sort { $a <=> $b } @F)[0,-1]; $sum += $high - $low; END { say $sum }' < input/day2.txt

@@ -1,0 +1,2 @@
+# Here I just sorted by the sum of magnitudes of accelerations, and made an educated guess of the two with the lowest acceleration.
+perl -wnlE'@a = /a=<(-?\d+),(-?\d+),(-?\d+)>/; $a = 0; $a += abs($_) for @a; say $a, " ", $. - 1, " | ", $_;' - | sort -g | perl -wnlE'/^(\d+)/; $n = $1 if $. == 1; print if $n == $1'
