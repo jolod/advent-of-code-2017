@@ -27,7 +27,7 @@ See [https://github.com/jolod/advent-of-code-2017](https://github.com/jolod/adve
 | [Day 19 - "A Series of Tubes"][Day 19 problem] | Perl and Python | [Perl][Day 19 part 12], [Python][day19-part12.py]
 | [Day 20 - "Particle Swarm"][Day 20 problem] | Python and Clojure | [Part 1][Day 20 part 1], [part 2][Day 20 part 2]
 | [Day 21 - "Fractal Art"][Day 21 problem] | Clojure | [Both parts][Day 21 part 12]
-| [Day 22 - "Sporifica Virus"][Day 22 problem] | Clojure (alias Langton's Ant) | [Part 1][Day 22 part 1], [part 2][Day 22 part 2]
+| [Day 22 - "Sporifica Virus"][Day 22 problem] (alias Langton's Ant) | Clojure | [Part 1][Day 22 part 1], [part 2][Day 22 part 2]
 | [Day 23 - "Coprocessor Conflagration"][Day 23 problem] | Clojure | [Part 1][Day 23 part 1], [part 2][Day 23 part 2]
 | [Day 24 - "Coprocessor Conflagration"][Day 24 problem] | Clojure | [Part 1][Day 24 part 1], [part 2][Day 24 part 2]
 | [Day 25 - "The Halting Problem"][Day 25 problem] | Clojure | [Part 1][Day 25 part 1] (No part 2)
