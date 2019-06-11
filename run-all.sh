@@ -1,6 +1,7 @@
 #!/bin/sh
 
 root=`pwd`
+solutions="$root/solutions"
 input="$root/input"
 
 day() {
@@ -19,34 +20,34 @@ Todo() {
 
 Shell() {
     day $1 $2
-    bash "$root/day$1-part$2.sh" < "$input/day$1.txt"
+    bash "$solutions/day$1-part$2.sh" < "$input/day$1.txt"
 }
 
 Clojure() {
     day $1 $2
-    cd "$root/day$1"
+    cd "$solutions/day$1"
     lein run -m "day$1.part$2" < "$input/day$1.txt"
 }
 
 Clojure_arg() {
     day $1 $2
-    cd "$root/day$1"
+    cd "$solutions/day$1"
     lein run -m "day$1.part$2" `cat "$input/day$1.txt"`
 }
 
 Perl() {
     day $1 $2
-    perl "$root/day$1-part$2.pl" < "$input/day$1.txt"
+    perl "$solutions/day$1-part$2.pl" < "$input/day$1.txt"
 }
 
 Python() {
     day $1 $2
-    python "$root/day$1-part$2.py" < "$input/day$1.txt"
+    python "$solutions/day$1-part$2.py" < "$input/day$1.txt"
 }
 
 Python_arg() {
     day $1 $2
-    python "$root/day$1-part$2.py" `cat "$input/day$1.txt"`
+    python "$solutions/day$1-part$2.py" `cat "$input/day$1.txt"`
 }
 
 Shell 1 1
