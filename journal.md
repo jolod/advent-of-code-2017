@@ -29,7 +29,7 @@ See [https://github.com/jolod/advent-of-code-2017](https://github.com/jolod/adve
 | [Day 21 - "Fractal Art"][Day 21 problem] | Clojure | [Both parts][Day 21 part 12]
 | [Day 22 - "Sporifica Virus"][Day 22 problem] (alias Langton's Ant) | Clojure | [Part 1][Day 22 part 1], [part 2][Day 22 part 2]
 | [Day 23 - "Coprocessor Conflagration"][Day 23 problem] | Clojure | [Part 1][Day 23 part 1], [part 2][Day 23 part 2]
-| [Day 24 - "Coprocessor Conflagration"][Day 24 problem] | Clojure | [Part 1][Day 24 part 1], [part 2][Day 24 part 2]
+| [Day 24 - "Electromagnetic Moat"][Day 24 problem] | Clojure | [Part 1][Day 24 part 1], [part 2][Day 24 part 2]
 | [Day 25 - "The Halting Problem"][Day 25 problem] | Clojure | [Part 1][Day 25 part 1] (No part 2)
 
 [Day 1 part 1]: day1-part1.sh
@@ -467,7 +467,7 @@ sub c -17000
 
 Then you had to realize that `f` is zero unless `b` is prime, which the double loop checks for. So all values of `b` which are not prime cause `h` to increment, and for me `b` started at 109900 and increased in steps of 17 until it reached 126900.
 
-## Day 24: Clojure - "Coprocessor Conflagration"
+## Day 24: Clojure - "Electromagnetic Moat"
 
 My solution works under the assumption that there are on duplicate components, which there was not in my input. I made a "double map" index of the components; if I had connectors `0/2, 2/2, 2/3, 3/4` then I had an index map looking like
 
