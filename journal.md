@@ -495,7 +495,7 @@ Now, given that I had the components, it would not be necessary to keep around t
 
 I also decided to keep the strengthed stored in the bridge and updated it every time a component was connected. I could just as well have had a function `strength` that calculated the strength based on the stored components, but that would do a lot of recalculation. And this was noticable. I did a simple benchmark and the algorithm took about four times longer to run using the ad hoc strength computation (see the code for part 2).
 
-Part 2 was just a matter of keying the bridges by `(juxt (comp count :components) :strength)` instead of just `:strength`. For some reason, Clojure's `max-key` only works on numbers as keys, not on comparable values, so I had to write my own `max-by`. (Interestingly, `sort-by` can use any comparable value, and at first I implemented `max-by` using `sort-by` but O(n) vs O(n log n) for no good reason other than laziness just doesn't feel good, even if it's just an Advent of Code puzzle.)
+Part 2 was just a matter of keying the bridges by `(juxt (comp count :components) :strength)` instead of just `:strength`. For some reason, Clojure's `max-key` only works on numbers as keys, not on comparable values, so I had to write my own `max-by`. (Interestingly, `sort-by` can use any comparable value, and at first I implemented `max-by` using `sort-by` but O(n log n) instead of O(n) for no good reason other than über laziness just doesn't feel good, even if it's just an Advent of Code puzzle.)
 
 ## Day 25: Clojure - "The Halting Problem"
 
