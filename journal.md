@@ -32,52 +32,52 @@ See [https://github.com/jolod/advent-of-code-2017](https://github.com/jolod/adve
 | [Day 24 - "Electromagnetic Moat"][Day 24 problem] | Clojure | [Part 1][Day 24 part 1], [part 2][Day 24 part 2]
 | [Day 25 - "The Halting Problem"][Day 25 problem] | Clojure | [Part 1][Day 25 part 1] (No part 2)
 
-[Day 1 part 1]: day1-part1.sh
-[Day 1 part 2]: day1-part2.sh
-[Day 2 part 1]: day2-part1.sh
-[Day 2 part 2]: day2/src/day2/part2.clj
-[Day 3 part 1]: day3-part1.sh
-[Day 3 part 2]: day3/src/day3/part2.clj
-[Day 4 part 1]: day4-part1.sh
-[Day 4 part 2]: day4-part2.sh
-[Day 5 part 1]: day5-part1.pl
-[Day 5 part 2]: day5-part2.py
-[Day 6 part 12]: day6/src/day6/part12.clj
-[Day 7 part 1]: day7/src/day7/part1.clj
-[Day 7 part 2]: day7/src/day7/part2.clj
-[Day 8 part 12]: day8/src/day8/part12.clj
-[Day 9 part 1]: day9-part1.pl
-[Day 9 part 2]: day9-part2.sh
-[Day 10 part 1]: day10-part1.py
-[Day 10 part 2]: day10-part2.py
-[Day 11 part 12]: day11/src/day11/part12.clj
-[Day 12 part 12]: day12/src/day12/part12.clj
-[Day 13 part 1]: day13-part1.py
-[Day 13 part 2]: day13-part2.py
-[Day 14 part 1]: day14-part1.py
-[Day 14 part 2]: day14-part2.py
-[Day 15 part 1]: day15-part1.py
-[Day 15 part 2]: day15-part2.py
-[Day 16 part 1]: day16-part1.pl
-[Day 16 part 2]: day16-part2.pl
-[Day 17 part 1]: day17-part1.py
-[Day 17 part 2 naive]: day17-part2-naive.py
-[Day 17 part 2 fast]: day17-part2.py
-[Day 18 part 1]: day18/src/day18/part1.clj
-[Day 18 part 2]: day18/src/day18/part2.clj
-[day19-part12.py]: day19-part12.py
-[Day 19 part 12]: day19-part12.pl
-[day20-part1.sh]: day20-part1.sh
-[Day 20 part 1]: day20-part1.py
-[Day 20 part 2]: day20/src/day20/part2.clj
-[Day 21 part 12]: day21/src/day21/part12.clj
-[Day 22 part 1]: day22/src/day22/part1.clj
-[Day 22 part 2]: day22/src/day22/part2.clj
-[Day 23 part 1]: day23/src/day23/part1.clj
-[Day 23 part 2]: day23/src/day23/part2.clj
-[Day 24 part 1]: day24/src/day24/part1.clj
-[Day 24 part 2]: day24/src/day24/part2.clj
-[Day 25 part 1]: day25/src/day25/part1.clj
+[Day 1 part 1]: solutions/day1-part1.sh
+[Day 1 part 2]: solutions/day1-part2.sh
+[Day 2 part 1]: solutions/day2-part1.sh
+[Day 2 part 2]: solutions/day2/src/day2/part2.clj
+[Day 3 part 1]: solutions/day3-part1.sh
+[Day 3 part 2]: solutions/day3/src/day3/part2.clj
+[Day 4 part 1]: solutions/day4-part1.sh
+[Day 4 part 2]: solutions/day4-part2.sh
+[Day 5 part 1]: solutions/day5-part1.pl
+[Day 5 part 2]: solutions/day5-part2.py
+[Day 6 part 12]: solutions/day6/src/day6/part12.clj
+[Day 7 part 1]: solutions/day7/src/day7/part1.clj
+[Day 7 part 2]: solutions/day7/src/day7/part2.clj
+[Day 8 part 12]: solutions/day8/src/day8/part12.clj
+[Day 9 part 1]: solutions/day9-part1.pl
+[Day 9 part 2]: solutions/day9-part2.sh
+[Day 10 part 1]: solutions/day10-part1.py
+[Day 10 part 2]: solutions/day10-part2.py
+[Day 11 part 12]: solutions/day11/src/day11/part12.clj
+[Day 12 part 12]: solutions/day12/src/day12/part12.clj
+[Day 13 part 1]: solutions/day13-part1.py
+[Day 13 part 2]: solutions/day13-part2.py
+[Day 14 part 1]: solutions/day14-part1.py
+[Day 14 part 2]: solutions/day14-part2.py
+[Day 15 part 1]: solutions/day15-part1.py
+[Day 15 part 2]: solutions/day15-part2.py
+[Day 16 part 1]: solutions/day16-part1.pl
+[Day 16 part 2]: solutions/day16-part2.pl
+[Day 17 part 1]: solutions/day17-part1.py
+[Day 17 part 2 naive]: solutions/day17-part2-naive.py
+[Day 17 part 2 fast]: solutions/day17-part2.py
+[Day 18 part 1]: solutions/day18/src/day18/part1.clj
+[Day 18 part 2]: solutions/day18/src/day18/part2.clj
+[day19-part12.py]: solutions/day19-part12.py
+[Day 19 part 12]: solutions/day19-part12.pl
+[day20-part1.sh]: solutions/day20-part1.sh
+[Day 20 part 1]: solutions/day20-part1.py
+[Day 20 part 2]: solutions/day20/src/day20/part2.clj
+[Day 21 part 12]: solutions/day21/src/day21/part12.clj
+[Day 22 part 1]: solutions/day22/src/day22/part1.clj
+[Day 22 part 2]: solutions/day22/src/day22/part2.clj
+[Day 23 part 1]: solutions/day23/src/day23/part1.clj
+[Day 23 part 2]: solutions/day23/src/day23/part2.clj
+[Day 24 part 1]: solutions/day24/src/day24/part1.clj
+[Day 24 part 2]: solutions/day24/src/day24/part2.clj
+[Day 25 part 1]: solutions/day25/src/day25/part1.clj
 
 [Day 1 problem]: https://adventofcode.com/2017/day/1
 [Day 2 problem]: https://adventofcode.com/2017/day/2
